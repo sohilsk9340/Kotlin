@@ -31,6 +31,6 @@ fun main() {
     ++a;
     a.inc()
     a.dec()
-    print(a.inc())
+//    print(a.inc())
 
 }
