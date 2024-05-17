@@ -1,4 +1,6 @@
-class Transaction {
+package assignment_1
+
+class Task3 {
     var amount: Double = 0.0;
     var date: String = "";
     var category: String = "";
@@ -9,7 +11,7 @@ class Transaction {
 }
 
 fun main(){
-    var tran1 = Transaction()
+    var tran1 = Task3()
 
     tran1.amount = 2000.0
     tran1.date = "10/01/2023"

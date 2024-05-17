@@ -1,3 +1,5 @@
+package assignment_2
+
 class StringTemplate {
     var name: String = ""
      fun display(): String{

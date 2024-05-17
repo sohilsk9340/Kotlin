@@ -1,3 +1,5 @@
+package assignment_2
+
 class EventDetails {
     var name: String = ""
     var date: String = ""

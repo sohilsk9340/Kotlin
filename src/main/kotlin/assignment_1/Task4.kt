@@ -1,6 +1,8 @@
+package assignment_1
+
 import java.time.LocalDate
 
-// Define the Transaction class
+// Define the Assignment_1.Transaction class
 class Task4(
     val amount: Double,
     val date: LocalDate,
@@ -25,7 +27,7 @@ class Task4(
 
     // Override toString method for easy printing
     override fun toString(): String {
-        return "Transaction(amount=$amount, date=$date, description='$description', category='$category')"
+        return "Assignment_1.Transaction(amount=$amount, date=$date, description='$description', category='$category')"
     }
 }
 
